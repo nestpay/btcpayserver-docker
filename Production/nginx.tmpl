@@ -26,6 +26,9 @@
 	{{ range $container := $.Containers }}
 		{{ $serviceName := (index $container.Labels "com.docker.compose.service") }}
 		{{ if (eq $serviceName "lnd_bitcoin") }}
+	location = / {
+        return 301 https://$host/invoices;
+	}
 	location /lnrpc {
 		grpc_pass grpcs://lnd_bitcoin:10009;
 	}
