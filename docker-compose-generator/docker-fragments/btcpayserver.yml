@@ -4,7 +4,7 @@ services:
 
   btcpayserver:
     restart: unless-stopped
-    image: ${BTCPAY_IMAGE:-vforvalerio87/btcpayserver:latest$<BTCPAY_BUILD_CONFIGURATION>?}
+    image: ghcr.io/nestpay/btcpayserver:latest
     expose:
       - "49392"
     environment:
