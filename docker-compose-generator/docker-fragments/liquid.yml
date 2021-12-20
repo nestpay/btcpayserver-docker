@@ -12,7 +12,7 @@ services:
       ELEMENTS_EXTRA_ARGS: |
         rpcport=43782
         rpcbind=0.0.0.0:43782
-        rpcauth=liquid:c8bf1a8961d97f224cb21224aaa8235d$$402f4a8907683d057b8c58a42940b6e54d1638322a42986ae28ebb844e603ae6
+        rpcauth=liquid:53fa23ff6d1fd40daa6bbc01e6a08dad$af2834a8771dec4374be5bb2b3c8b47371a5128a0fa165e48d87b324deee3171
         port=39388
         whitelist=0.0.0.0/0
         validatepegin=0
