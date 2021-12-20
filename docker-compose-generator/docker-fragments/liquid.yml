@@ -14,6 +14,7 @@ services:
         rpcbind=0.0.0.0:43782
         rpcuser=liquid
         rpcpassword=liquid
+        rpcallowip=0.0.0.0/0
         port=39388
         whitelist=0.0.0.0/0
         validatepegin=0
